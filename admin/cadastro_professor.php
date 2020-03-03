@@ -1,14 +1,14 @@
 <<<<<<< HEAD
-<?php
-require ("../header.php");
-?>
 <!--==========================
-  Cadastro de Usuario
+  Cadastro de Professor
   ============================-->
+
+
   
 
+<h1 align="center">Cadastro Professores</h1>
 
-    <section class="../img_cadastros">
+    <section class="img_cadastros">
   
      <div class="container font">
 
@@ -17,7 +17,7 @@ require ("../header.php");
         <div class=" font">
         <form>
            
-          <div class="../form-group">
+          <div class="form-group">
             <label for="exampleInputPassword1">Nome da Escola</label>
             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite o nome da Escola">
           </div>
@@ -96,26 +96,6 @@ require ("../header.php");
       </div><br>
       <!-- Fim cadastro -->
 
-<<<<<<< HEAD
-        </form>
-         
-          <br>
-          <div class="center_button">
-              <button type="submit" class="btn btn-primary tamanho_button">Enviar</button>
-          </div>
-          <br>
-        </div>
-
-        </form>
-      
-  </div>
-  </section>      
- 
-  </main>
-<?php
-require ("../footer.php");
-?>
-=======
       <!-- Tabela de cadastrados -->
       <table class="table">
         <thead class="thead-dark">
@@ -158,4 +138,3 @@ require ("../footer.php");
     </div>
   </section>
 </main>
->>>>>>> upstream/master

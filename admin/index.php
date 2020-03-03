@@ -37,15 +37,11 @@
                 </button>
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto navbar-right-top">
-<<<<<<< HEAD
-                    <!-- <?php echo $_SESSION['escola'], ", ", $_SESSION['usuario'], ", ", $_SESSION['tipo_usuario']; ?> -->
-=======
                       <?php echo $_SESSION['nome_escola'], ", ", $_SESSION['usuario'], ", ", $_SESSION['tipo_usuario']; ?>
->>>>>>> upstream/master
                     </ul>
                 </div>
                   <div >
-                <button type="submit" class="btn btn-danger tamanho_button">Sair</button>
+                <button type="submit" class="btn btn-danger tamanho_button" ><a href="sair.php">Sair</button>
               </div>
             </nav>
 
