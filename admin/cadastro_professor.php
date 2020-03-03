@@ -1,5 +1,5 @@
 <?php
-require ("header.php");
+require ("../header.php");
 ?>
 <!--==========================
   Cadastro de Usuario
@@ -7,7 +7,7 @@ require ("header.php");
   
 
 
-    <section class="img_cadastros">
+    <section class="../img_cadastros">
   
      <div class="container font">
 
@@ -16,7 +16,7 @@ require ("header.php");
         <div class=" font">
         <form>
            
-          <div class="form-group">
+          <div class="../form-group">
             <label for="exampleInputPassword1">Nome da Escola</label>
             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite o nome da Escola">
           </div>
@@ -116,5 +116,5 @@ require ("header.php");
  
   </main>
 <?php
-require ("footer.php");
+require ("../footer.php");
 ?>

@@ -13,7 +13,7 @@ require ("header.php");
 
 
       
-        <div class=" font">
+        <div class="font">
         <form action="exe/cadastro_escola_exe.php" method="post">
            
           <div class="form-group">
