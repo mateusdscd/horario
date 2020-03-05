@@ -32,13 +32,7 @@
                 <option>Administrador</option>
               </select>
             </div>
-          <div class="row">
-            <div class="col">
-              <div class="right_button">
-                <button type="submit" class="btn btn-primary tamanho_button">Salvar</button>
-              </div>
-            </div>
-          </div>
+          
         </form>
       </div><br>
       <!-- Fim cadastro -->
@@ -54,6 +48,17 @@
             <th scope="col">Ação</th>
           </tr>
         </thead>
+
+        <div class="row">
+            <div class="col">
+              <div class="right_button">
+                <button type="submit" class="btn btn-primary tamanho_button">Salvar</button>
+              </div>
+            </div>
+          </div>
+          <br>
+          <br>
+          <br>
         <tbody>
           <?php
             $email = $_SESSION['email'];
@@ -85,7 +90,9 @@
             </tr>
           <?php } ?>
         </tbody>
+
       </table>
+
       <!-- Fim tabela de cadastrados -->
     </div>
   </section>
