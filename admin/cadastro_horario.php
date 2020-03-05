@@ -22,11 +22,7 @@
           <div class="row">
             <div class="col">
               <label for="exampleInputPassword1">Selecione o dia da semana</label>
-<<<<<<< HEAD
-                <select type="text" class="form-control" placeholder="Digite o tipo de usuario" required="required">
-=======
                 <select type="text" class="form-control" placeholder="Digite o tipo de usuario" required="required" name ="dia_da_semana">
->>>>>>> upstream/master
                   <option selected>Dia da Semana...
                     <option value="DO">Domingo</option>
                     <option value="SE">Segunda-feira</option>
@@ -42,19 +38,11 @@
             <div class="row">
               <div class="col">
                 <label for="exampleInputPassword1">Hora Inicial</label>
-<<<<<<< HEAD
-                <input type="text" size="10" maxlength="10" class="form-control" placeholder="Digite a Posição" required="required" name="posicao">
-              </div>
-              <div class="col">
-                <label for="exampleInputPassword1">Hora Final</label>
-                <input type="text" class="form-control" placeholder="Digite a Ordem" required="required" name="ordem">
-=======
                 <input type="text" size="10" maxlength="10" class="form-control" placeholder="Digite a Posição" required="required" name="hora_inicial">
               </div>
               <div class="col">
                 <label for="exampleInputPassword1">Hora Final</label>
                 <input type="text" class="form-control" placeholder="Digite a Ordem" required="required" name="hora_final">
->>>>>>> upstream/master
               </div>
             </div><br>
           <div class="row">

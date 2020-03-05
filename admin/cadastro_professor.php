@@ -45,10 +45,6 @@
           </div><br>
           <div class="row">
             <div class="col">
-<<<<<<< HEAD
-              <label for="exampleInputPassword1">Estado</label>
-              <input type="text" class="form-control" placeholder="Digite o Estado" required="required" name="estado">
-=======
                <label for="exampleInputPassword1">Estado</label>
                 <select name="estado" id="inputEstado" class="form-control">
                          <option selected>Estado...
@@ -81,7 +77,6 @@
                                 <option value="TO">Tocantins</option> 
                          </option>       
                 </select>
->>>>>>> upstream/master
             </div>
             <div class="col">
               <label for="exampleInputPassword1">CEP</label>
